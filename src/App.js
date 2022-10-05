@@ -1,6 +1,5 @@
-import { Button } from './components/Button.styled.js';
-import { CustomWrapper } from './components/CustomWrapper.js';
-import { Vtext } from './components/Vtext';
+import { CustomWrapper } from './styles.js';
+import { Vtext } from './components/Vtext/Vtext';
 
 function App() {
   return (
@@ -20,8 +19,6 @@ function App() {
       <Vtext transform="uppercase">верхний регистр ( transform="uppercase" )</Vtext>
       <Vtext align="center">Выравнивание по центру ( align="center" )</Vtext>
       <Vtext align="right">Выравнивание оп правому краю ( align="right" )</Vtext>
-      
-      <Button bgcolor="springGreen">first styled btn</Button>
     </CustomWrapper>
   );
 }

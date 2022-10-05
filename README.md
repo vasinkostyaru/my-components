@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ###  Vtext
 
-Приверы использования
+Примеры использования
 
 ```<Vtext fontWeight="thin">Параграф тонкий шрифт ( fontWeight="thin" )</Vtext>
 <Vtext fontWeight="bold">Параграф жирный шрифт ( fontWeight="bold" )</Vtext>
