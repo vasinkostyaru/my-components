@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Приверы использования
 
-`<Vtext fontWeight="thin">Параграф тонкий шрифт ( fontWeight="thin" )</Vtext>
+```<Vtext fontWeight="thin">Параграф тонкий шрифт ( fontWeight="thin" )</Vtext>
 <Vtext fontWeight="bold">Параграф жирный шрифт ( fontWeight="bold" )</Vtext>
 <Vtext size="small">Параграф мелкий шрифт ( size="small" )</Vtext>
 <Vtext size="big">Параграф большой шрифт ( size="big" )</Vtext>
@@ -22,5 +22,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <Vtext transform="capitalize">Капиталайз параграфа ( transform="capitalize" )</Vtext>
 <Vtext transform="uppercase">верхний регистр ( transform="uppercase" )</Vtext>
 <Vtext align="center">Выравнивание по центру ( align="center" )</Vtext>
-<Vtext align="right">Выравнивание оп правому краю ( align="right" )</Vtext>`
+<Vtext align="right">Выравнивание оп правому краю ( align="right" )</Vtext>
+```
 
