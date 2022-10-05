@@ -31,8 +31,9 @@ export const Vtext = styled.p`
 
     ${({ gradient }) => {
         if (gradient) {
+            let { deg = 45, from = 'indigo', to = 'cyan' } = gradient;
             return css`
-                background-image: linear-gradient(${gradient.deg}deg, ${gradient.from}, ${gradient.to});
+                background-image: linear-gradient(${deg}deg, ${from}, ${to});
                 background-clip: text;
                 text-fill-color: transparent ; 
                 -webkit-background-clip: text;
